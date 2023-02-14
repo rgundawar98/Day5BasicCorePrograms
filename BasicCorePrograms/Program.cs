@@ -8,12 +8,15 @@ namespace BasicCorePrograms
         {
             Console.WriteLine("Welcome to the Basic Core Programs");
             Console.WriteLine("Choose option from below");
-            Console.WriteLine("1.Flip Coin Percentage");
+            Console.WriteLine("1.Flip Coin Percentage\n2.Leap Year");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
                 case 1:
                     FlipCoinPercentage.Check_Percentage();
+                    break;
+                case 2:
+                    LeapYear.Check_Leap_Year();
                     break;
             }
         }
