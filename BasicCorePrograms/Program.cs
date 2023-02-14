@@ -8,7 +8,7 @@ namespace BasicCorePrograms
         {
             Console.WriteLine("Welcome to the Basic Core Programs");
             Console.WriteLine("Choose option from below");
-            Console.WriteLine("1.Flip Coin Percentage\n2.Leap Year");
+            Console.WriteLine("1.Flip Coin Percentage\n2.Leap Year\n3.Power Of Number");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
@@ -17,6 +17,9 @@ namespace BasicCorePrograms
                     break;
                 case 2:
                     LeapYear.Check_Leap_Year();
+                    break;
+                case 3:
+                    PowerOfNumber.Calculate_Power();
                     break;
             }
         }
