@@ -8,7 +8,7 @@ namespace BasicCorePrograms
         {
             Console.WriteLine("Welcome to the Basic Core Programs");
             Console.WriteLine("Choose option from below");
-            Console.WriteLine("1.Flip Coin Percentage\n2.Leap Year\n3.Power Of Number");
+            Console.WriteLine("1.Flip Coin Percentage\n2.Leap Year\n3.Power Of Number\n4.Harmonic Number");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
@@ -20,6 +20,9 @@ namespace BasicCorePrograms
                     break;
                 case 3:
                     PowerOfNumber.Calculate_Power();
+                    break;
+                case 4:
+                    HarmonicNumber.Count_Harmonic();
                     break;
             }
         }
