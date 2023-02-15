@@ -8,7 +8,8 @@ namespace BasicCorePrograms
         {
             Console.WriteLine("Welcome to the Basic Core Programs");
             Console.WriteLine("Choose option from below");
-            Console.WriteLine("1.Flip Coin Percentage\n2.Leap Year\n3.Power Of Number\n4.Harmonic Number\n5.Prime Factorization");
+            Console.WriteLine("1.Flip Coin Percentage\n2.Leap Year\n3.Power Of Number\n4.Harmonic Number\n5.Prime Factorization" +
+                "\n6.Quotient Remainder");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
@@ -26,6 +27,9 @@ namespace BasicCorePrograms
                     break;
                 case 5:
                     PrimeFactorization.Check_Prime_factors();
+                    break;
+                case 6:
+                    QuotientRemainder.Calculation();
                     break;
             }
         }
