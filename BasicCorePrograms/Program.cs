@@ -9,7 +9,7 @@ namespace BasicCorePrograms
             Console.WriteLine("Welcome to the Basic Core Programs");
             Console.WriteLine("Choose option from below");
             Console.WriteLine("1.Flip Coin Percentage\n2.Leap Year\n3.Power Of Number\n4.Harmonic Number\n5.Prime Factorization" +
-                "\n6.Quotient Remainder\n7.Swap Numbers\n8.Even-Odd Number\n9.Check Alphabet");
+                "\n6.Quotient Remainder\n7.Swap Numbers\n8.Even-Odd Number\n9.Check Alphabet\n10.CheckNumber");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
@@ -39,6 +39,9 @@ namespace BasicCorePrograms
                     break;
                 case 9:
                     CheckAlphabet.Check_Alphabet();
+                    break;
+                case 10:
+                    CheckNumber.Check_Big_Number();
                     break;
             }
         }
